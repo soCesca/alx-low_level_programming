@@ -3,6 +3,8 @@
 /**
  * _islower - check for lowercase character
  *
+ * @c - single letter outpu
+ *
  * Return 1 if int is lowercase, else return 0.
  */
 int _islower(int c)
