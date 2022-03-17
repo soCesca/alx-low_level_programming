@@ -35,6 +35,7 @@ int main(void)
 			}
 			fbn2 = (n11 + n22);
 			fbn = num1 + num2 + (fbn2 / 1000000000);
+			printf(", %ld", fbn);
 			printf(", %ld", fbn2 % 1000000000);
 			num1 = num2;
 			n11 = n22;
