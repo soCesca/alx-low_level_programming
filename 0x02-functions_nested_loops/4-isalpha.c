@@ -5,7 +5,7 @@
  *
  * @c: single letter input
  *
- * Return 1 if c is a letter, 0 otherwise
+ * Return: 1 if c is a letter, 0 otherwise
  */
 int _isalpha(int c)
 {
@@ -17,5 +17,4 @@ int _isalpha(int c)
 	{
 	return (0);
 	}
-	_putchar('\n');
-}	
+}
